@@ -1,0 +1,147 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "rosa",
+      "questionsId": [
+        14,
+        31
+      ],
+      "confirmedMail": false,
+      "submitedExam": true,
+      "startedExam": true,
+      "examStartTime": "7/2/2023-19:30:30"
+    },
+    {
+      "id": 9,
+      "email": "carlos",
+      "questionsId": [
+        14,
+        31,
+        44
+      ],
+      "confirmedMail": false,
+      "submitedExam": false,
+      "startedExam": false,
+      "examStartTime": "7/2/2023-19:29:32"
+    }
+  ],
+  "questions": [
+    {
+      "id": 14,
+      "question": "How much is 1 + 1 ?",
+      "alternatives": [
+        {
+          "id": 1,
+          "answer": "2"
+        },
+        {
+          "id": 3,
+          "answer": "11"
+        },
+        {
+          "id": 6,
+          "answer": "1+1"
+        }
+      ],
+      "answerId": 1,
+      "userAnswerId": 0
+    },
+    {
+      "id": 44,
+      "question": "What is the speed of sound ?",
+      "alternatives": [
+        {
+          "id": 1,
+          "answer": "20 m/s"
+        },
+        {
+          "id": 3,
+          "answer": "300 m/s"
+        },
+        {
+          "id": 6,
+          "answer": "3 km/s"
+        },
+        {
+          "id": 12,
+          "answer": "357,6 cm/s"
+        }
+      ],
+      "answerId": 3,
+      "userAnswerId": 0
+    },
+    {
+      "id": 31,
+      "question": "How you can create 3D pathfinding seamlessly using Unity ?",
+      "alternatives": [
+        {
+          "id": 1,
+          "answer": "Using tile maping."
+        },
+        {
+          "id": 3,
+          "answer": "Using terrain raycasting."
+        },
+        {
+          "id": 6,
+          "answer": "Using recursion."
+        },
+        {
+          "id": 12,
+          "answer": "Using navMesh agent."
+        }
+      ],
+      "answerId": 12,
+      "userAnswerId": 0
+    }
+  ],
+  "texts": [
+    {
+      "id": 42,
+      "tag": "confirm_exam",
+      "header": "Welcome to Interview Hub !! \nPlease confirm exam details :",
+      "text": "This exam is designed specifically for developer position with questions pertinent to requisites described at job application. \n\nYou will have a time period of 30 minutes to complete the exam after confirming the start. Note that if you leave or reload the page the current answers will be discarted. Other attempts will have to be solicited to 'HR@myCompany.com"
+    },
+    {
+      "id": 99,
+      "tag": "confirm_submit",
+      "header": "Confirm submission details :",
+      "text": "You still have a time left to complete the exam. Are you sure you want to submmit your answers ?\n\nPlease verify all of them, after this exam submmision you won't be able change or restart the exam.\n\nAfter submission we will review you answers and get in touch with feeback."
+    }
+  ],
+  "submissions": [
+    {
+      "answers": [
+        {
+          "questionId": 14,
+          "answerId": 3
+        },
+        {
+          "questionId": 31,
+          "answerId": 12
+        }
+      ],
+      "id": 1,
+      "isDirty": false
+    },
+    {
+      "answers": [
+        {
+          "questionId": 14,
+          "answerId": 1
+        },
+        {
+          "questionId": 31,
+          "answerId": 0
+        },
+        {
+          "questionId": 44,
+          "answerId": 0
+        }
+      ],
+      "id": 9,
+      "isDirty": false
+    }
+  ]
+}
